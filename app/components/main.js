@@ -12,25 +12,24 @@ const Main = () => {
     <div>
        <div className='container mx-auto px-4 h-92' >
           <div className="bg-[url(/img/b12.jpg)] bg-cover bg-center w-full h-full flex items-center justify-center">
-            <p className='p-2 text-2xl text-blue-500 h-66 w-2xl bg-opacity-70 text-center font-serif'>
+          <p className='p-2 text-2xl text-blue-500 h-66 w-2xl bg-opacity-70 text-center font-serif'>
               This draft provides a basic framework and can be expanded or modified depending on
-              your SACCO's needs and jurisdictional requirements.
-            </p>
+              your SACCO&#39;s needs and jurisdictional requirements.
+          </p>
           </div>
        </div>
 
        <section className='container mx-auto p-4'>
-        <div children="m-4">
-          <h2 className='text-center text-xl font-semibold'>
-            Al-Bayern-Ujaama Sacco Online Based
-            Since 2024
-          </h2>
-          <div children="">
-            <h3 className='text-center text-xl text-blue-500'> SACCO</h3>
+          <div className="m-4">
+            <h2 className='text-center text-xl font-semibold'>
+              Al-Bayern-Ujaama Sacco Online Based
+              Since 2024
+            </h2>
+            <div>
+              <h3 className='text-center text-xl text-blue-500'> SACCO</h3>
+            </div>
           </div>
-        </div>
-        <div></div>
-       </section>
+        </section>
 
       <section className='w-full h-auto bg-gradient-to-r
         from-indigo-500 to-blue-600 '
