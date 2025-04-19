@@ -26,7 +26,7 @@ const Main = () => {
             <span className='block text-3xl md:text-4xl lg:text-5xl font-bold mb-4'>AL-Bayern-Ujaama Sacco</span>
             <span className='text-lg md:text-xl lg:text-2xl font-light'>
               This draft provides a basic framework and can be expanded or modified depending on
-              your SACCO's needs and jurisdictional requirements.
+              your SACCO&apos;s needs and jurisdictional requirements.
             </span>
           </p>
         </div>
