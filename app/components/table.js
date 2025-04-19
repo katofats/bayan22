@@ -1,62 +1,61 @@
-
 import React from 'react'
 
 const Table = () => {
   return (
-    <div>
-      <div className='table-none md:table-fixed'>
-             <table className="table-auto">
-                <thead className='bg-[#6b69d9] text-white'>
-                  <tr className=''>
-                    <th className=''>No.</th>
-                    <th className=''>Names</th>
-                    <th>signatures</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className=''>
-                    <td>1.</td>
-                    <td>Latifah Nagayonga</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>2.</td>
-                    <td>Gayonga HABIBU</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>3.</td>
-                    <td>Muhamad Kazibwe</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>4.</td>
-                    <td>Nanyonga Saudah</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>5.</td>
-                    <td>HATIMU Muyanja</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>6.</td>
-                    <td>Daddy Ahmed Gayonga</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>7.</td>
-                    <td>Daddy Muhamad Mayega</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>8.</td>
-                    <td>Abdul HAMID Kyeyune Jr</td>
-                    <td></td>
-                  </tr>
-                </tbody>
-             </table>
-        </div>
+    <div className="relative overflow-x-auto">
+      <div className="w-full">
+        <table className="w-full border-collapse bg-white text-left text-sm text-gray-800">
+          <thead className="bg-gradient-to-r from-blue-500 to-blue-600">
+            <tr>
+              <th className="px-4 py-4 text-sm font-semibold text-white">No.</th>
+              <th className="px-4 py-4 text-sm font-semibold text-white">Names</th>
+              <th className="px-4 py-4 text-sm font-semibold text-white">Signatures</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-100 border-t border-gray-100">
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">1.</td>
+              <td className="px-4 py-3 text-sm font-medium">Latifah Nagayonga</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">2.</td>
+              <td className="px-4 py-3 text-sm font-medium">Gayonga HABIBU</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">3.</td>
+              <td className="px-4 py-3 text-sm font-medium">Muhamad Kazibwe</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">4.</td>
+              <td className="px-4 py-3 text-sm font-medium">Nanyonga Saudah</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">5.</td>
+              <td className="px-4 py-3 text-sm font-medium">HATIMU Muyanja</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">6.</td>
+              <td className="px-4 py-3 text-sm font-medium">Daddy Ahmed Gayonga</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">7.</td>
+              <td className="px-4 py-3 text-sm font-medium">Daddy Muhamad Mayega</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+            <tr className="hover:bg-gray-50 transition duration-150">
+              <td className="px-4 py-3 text-sm">8.</td>
+              <td className="px-4 py-3 text-sm font-medium">Abdul HAMID Kyeyune Jr</td>
+              <td className="px-4 py-3 text-sm"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
